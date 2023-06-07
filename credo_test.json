@@ -1,0 +1,46 @@
+{
+   "led":
+   {
+      "scene":
+      [
+         {
+            "value": "FFFF0000",
+            "time": 10,
+            "comment": "fade red"
+         },
+         {
+            "value": "FF00FF00",
+            "time": 10,
+            "comment": "fade green"
+         },
+         {
+            "value": "FF0000FF",
+            "time": 10,
+            "comment": "fade blue"
+         }
+      ]
+   },
+
+   "scene":
+   {
+      "name": "Credo Test",
+      "preview": "https://scj552.s3.amazonaws.com/credo_test.html",
+      "state":
+      [
+         {
+            "piezo1": true,
+            "piezo2": false,
+            "led1": "scene",
+            "led2": "scene",
+            "time": 14400
+         },
+         {
+            "piezo1": false,
+            "piezo2": true,
+            "led1": "scene",
+            "led2": "scene",
+            "time": 14400
+         }
+      ]
+   }
+}
