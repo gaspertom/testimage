@@ -29,13 +29,13 @@
       [
          {
             "piezo1": true,
-            "piezo2": false,
+            "piezo2": true,
             "led1": "scene",
             "led2": "scene",
             "time": 14400
          },
          {
-            "piezo1": false,
+            "piezo1": true,
             "piezo2": true,
             "led1": "scene",
             "led2": "scene",
